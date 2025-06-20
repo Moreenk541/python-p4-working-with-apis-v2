@@ -12,7 +12,7 @@ class Search:
         # formats the list into a comma separated string
         # output: "title,author_name"
         fields_formatted = ",".join(fields)
-        limit = 1
+        limit = 3
 
         URL = f"https://openlibrary.org/search.json?title={search_term_formatted}&fields={fields_formatted}&limit={limit}"
 
